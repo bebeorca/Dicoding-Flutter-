@@ -99,6 +99,7 @@ class _HomeState extends State<Home> {
                       },
                       child: Card(
                         // color: const Color.fromARGB(255, 240, 240, 240),
+                        color: Colors.white,
                         margin: const EdgeInsets.all(12),
                         child: Padding(
                           padding: const EdgeInsets.all(16.0),
@@ -197,6 +198,7 @@ class _HomeWithGridState extends State<HomeWithGrid> {
                 }));
               },
               child: Card(
+                color: Colors.white,
                 child: Column(
                   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.start,
