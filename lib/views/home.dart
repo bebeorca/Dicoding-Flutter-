@@ -19,7 +19,8 @@ class _MainPageState extends State<MainPage> {
         backgroundColor: setColor,
         title: const Text(
           'GiGalaxy: Freelancer Centre',
-          style: TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
+          style: TextStyle(
+              fontWeight: FontWeight.w700, fontSize: 20, color: Colors.white),
         ),
       ),
       body: LayoutBuilder(
@@ -177,7 +178,6 @@ class _HomeWithGridState extends State<HomeWithGrid> {
 
   @override
   Widget build(BuildContext context) {
-    
     return Skeletonizer(
       effect: const ShimmerEffect(),
       enabled: _loading,

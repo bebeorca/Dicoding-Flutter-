@@ -12,6 +12,7 @@ class ContributorDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        foregroundColor: Colors.white,
         backgroundColor: setColor,
         title: Text(
           contributor.name,

@@ -69,10 +69,12 @@ class _MobilePageViewState extends State<MobilePageView> {
 
     return Scaffold(
       appBar: AppBar(
+        foregroundColor: Colors.white,
         backgroundColor: setColor,
         title: Text(
           "GiGalaxy: ${widget.contributorsModel.jobDeskCategory}",
-          style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
+          style: const TextStyle(
+              fontWeight: FontWeight.w700, fontSize: 20, color: Colors.white),
         ),
       ),
       body: contributors.isNotEmpty
@@ -117,6 +119,7 @@ class _GridPageViewState extends State<GridPageView> {
 
     return Scaffold(
       appBar: AppBar(
+        foregroundColor: Colors.white,
         backgroundColor: setColor,
         title: Text(
           "GiGalaxy: ${widget.contributorsModel.jobDeskCategory}",
